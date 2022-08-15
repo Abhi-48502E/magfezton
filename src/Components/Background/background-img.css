@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container>.dynamic-txt {
+    font-size: 70px;
+    height: 80px;
+    font-weight: bolder;
+    line-height: 70px;
+    overflow: hidden;
+    margin-left: 0 0 0 15px;
+    padding-left: 15px;
+    position: relative;
+    top: -630px;
+    left: 400px;
+    color: #372a79;
+}
+
+.dynamic-txt>li {
+    list-style: none;
+    font-weight: 50px;
+    position: relative;
+    animation: slide 5s steps(3) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -70px;
+    }
+}
+
+.dynamic-txt li span {
+    margin: 5px 0;
+    line-height: 70px;
+}
+
+.dynamic-txt li span::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    height: 100%;
+    width: 100%;
+    line-height: 90px;
+    animation: typing 3s steps(3) infinite;
+}
+
+@keyframes typing {
+
+    100%,
+    60% {
+        left: calc(100% + 30px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+.blue-car {
+    height: 873px;
+    margin-top: -38px;
+}
