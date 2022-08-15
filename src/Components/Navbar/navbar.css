@@ -19,6 +19,7 @@ body {
   top: -54.5px;
   left: 180px;
   padding-left: 20px;
+  font-size: larger;
 }
 
 .search-btn {
@@ -28,7 +29,7 @@ body {
   outline: none;
   left: 190px;
   top: -54.5px;
-
+  font-size: larger;
   border: 1px;
   background-color: #372a79;
   color: #efefef;
@@ -37,6 +38,7 @@ body {
 
 .nav {
   height: 70px;
+  font-size: larger;
   width: 100%;
   background-color: #1F4690;
   position: relative;
@@ -142,7 +144,7 @@ body {
   .nav>#nav-check:checked~.nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
-    
+
   }
 
   .search-bar {

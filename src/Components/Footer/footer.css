@@ -1,0 +1,30 @@
+.main-footer {
+    height: 500px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.logoz-perf {
+    height: 350px;
+    margin-left: 899px;
+}
+
+.main-icons {
+    display: flex;
+}
+
+.logozii {
+    font-size: 40px;
+    margin-top: -50px;
+    margin-left: 250px;
+}
+
+#He {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#Ho {
+    margin-top: 60px;
+    margin-left: 100px;
+}

@@ -12,6 +12,7 @@
 .wrapper {
     position: relative;
     top: -710px;
+    height: 400px;
     width: 330px;
     padding: 2rem 0 1rem 0;
     margin: 50px auto;
@@ -22,11 +23,16 @@
     text-align: center;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    font-size: larger;
 }
 
 .wrapper h1 {
     font-size: 2rem;
     color: white;
+}
+
+#input-type-txt {
+    color: black;
 }
 
 p {

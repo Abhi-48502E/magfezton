@@ -12,8 +12,8 @@ function Signup() {
     <h1>Login</h1>
     <p>Welcome </p>
     <form>
-      <input type="text" placeholder="Enter username"/>
-      <input type="password" placeholder="Password"/>
+      <input type="text" placeholder="Enter username" id='input-type-txt'/> 
+      <input type="password" placeholder="Password" id='input-type-txt'/>
       <p class="recover">
         <a>Recover Password</a>
       </p>
